@@ -1,18 +1,14 @@
 CC = gcc
-CFLAGS = -std=c11 -Wall -Wextra -Iinclude
-SRC = $(wildcard src/*.c)
-OBJ = $(SRC:.c=.o)
-TARGET = kpi_dashboard
+CFLAGS = -std=c11 -Wall -Wextra -Wpedantic
+TARGET = employee_dashboard
+SRCS = src/main.c
 
 all: $(TARGET)
 
-$(TARGET): $(OBJ)
-	$(CC) $(CFLAGS) -o $@ $^
-
-%.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+$(TARGET): $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) -o $(TARGET)
 
 clean:
-	rm -f src/*.o $(TARGET)
+	rm -f $(TARGET)
 
 .PHONY: all clean
