@@ -1,0 +1,16 @@
+4
+101|Som Tiwari|Engineering|3
+1|Optimize Kernel Scheduler|4.00|94.00|1|0
+2|Fix Deadlock in Mutex|3.50|91.00|1|0
+3|Implement Memory Pooling|5.00|88.00|1|0
+102|Durgesh|Design|3
+4|Figma Prototype Screen Flow|6.00|85.00|1|0
+5|Responsive Navigation Bar|4.00|78.00|1|1
+6|Asset Compression Pipeline|3.00|82.00|1|0
+103|Pranjul Pandey|Data Science|3
+7|Model Hyperparameter Sweep|8.00|90.00|1|0
+8|Recall Optimization Routine|7.00|93.00|1|0
+9|Data Cleaning Batch Scripts|4.00|95.00|1|0
+104|Nivedita|Documentation|2
+10|Technical API Documentation|5.00|65.00|1|1
+11|Release Notes Verification|4.00|60.00|1|1
